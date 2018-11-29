@@ -19,13 +19,14 @@
 	</header>
 
 	<main>
-		<h2>Cupcakes: The history and how you can make some!</h2>
+		<h2>All about cupcakes and how you can make your own!</h2>
 	</main>
 
-	<footer class="persistent">
+	<footer>
 		<section>
-			<h3>Our ode to cupcakes</h3>
-				<p>Cupcakes are delicious and the best kind of dessert. We are so filled with joy that we must share the joys of cupcakes with the world. Come <a href = history.php>learn the history of cupcakes</a>, <a href=recipes.php>read some amazing cupcake recipes</a>, and fill out our <strong><a href = survey.php>CUPCAKE SURVEY!</a></strong></p>
+			<h3>Cupcakes? What are those?</h3>
+				<p>A cupcake  is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with 
+				larger cakes, icing and other cake decorations such as fruit and candy may be applied. Come <a href = history.php>learn all about cupcakes</a>, <a href=recipes.php>read some amazing cupcake recipes</a>, and fill out our <strong><a href = survey.php>CUPCAKE SURVEY!</a></strong></p>
 		</section>
 
 		<section>
