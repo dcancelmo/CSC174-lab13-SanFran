@@ -33,17 +33,12 @@
         <input type="text" name="cupcake" id="cupcake">
         <label class="fixed" for="frosting">Favorite frosting: </label>
         <input type="text" name="frosting" id="frosting">
-        <input type="range" min="1" max="60" value="1" class="slider" id="budgetSlider">
-        <p>How much do you spend per week on cupcakes?: $<span id="budgetValue"></span></p>
-        <script>
-          var slider = document.getElementById("budgetSlider");
-          var output = document.getElementById("budgetValue");
-          output.innerHTML = slider.value;
+        <label class="fixed" for="sprinkles">Do you sprinkles? </label>
+        <input type="radio" name="sprinkles" value="yes">Yes
+        <input type="radio" name="sprinkles" value="no">No
+        <input type="radio" name="sprinkles" value="sometimes">Sometimes
 
-          slider.oninput = function() {
-          output.innerHTML = this.value;
-          }
-        </script>
+
         <fieldset>
         <h3><label for="userrecipes">Submit your own recipe below!</label></h3>
         <textarea name="userrecipes" id="userrecipes" cols ="60" rows="30"></textarea>
