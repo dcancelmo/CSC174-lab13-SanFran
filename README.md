@@ -3,9 +3,9 @@
 Admin has access to the database
 
 ##Taxonomy 
-Cupcakes have history, recipes, and a survey
-history has...
-recipes have titles, unordered lists of ingredients, and paragraphs for how to create.
+Cupcakes have an about page, recipes, and a survey
+About has the history, then how they're typically made, to different kinds of cupcakes
+Recipes have titles, unordered lists of ingredients, and paragraphs for how to create.
 Survey takes....
 
 ##Choreography
@@ -14,6 +14,6 @@ recipes, and the survey in the top right, a short description about why cupcakes
 and in the bottom right, terminal area, is a link to the survey, the purpose of the site.
 All pages have the same header. 
 All pages have the link to the survey in the bottom right. 
-The link to login is...
+The link to login is on the bottom left of the recipes page
 The survey has 3 text boxes, a slider, and a fieldset for a larger textbox. 
 The submit pushes information to the database and takes user to a thank you page. 

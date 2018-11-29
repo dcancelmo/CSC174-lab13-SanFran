@@ -4,9 +4,10 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Cupcakes Home</title>
+    <title>Cupcake Survey!</title>
   </head>
 
+  <body>
   <header>
     <section>
       <h1>Cupcakes</h1>
@@ -14,12 +15,18 @@
 
     <section>
         <nav>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About Cupcakes</a></li>
+          <li><a href="recipes.php">Recipes</a></li>
+          <li><a href="survey.php">Cupcake Survey</a></li>
+        </ul>
         </nav>
     </section>
   </header>
-      <main>
-      <h2>Do you have a recipe that you'd like to submit?</h2>
-      <form method="post" action="form-processor.php">
+  <main>
+    <h2>Do you have a recipe that you'd like to submit?</h2>
+      <form method="post" action="survey-thanks.php">
         <label class="fixed" for="username">Your Name: </label>
         <input type="text" name="username" id="username">
         <label class="fixed" for="cupcake">Favorite Cupcake: </label>
@@ -40,9 +47,9 @@
         <fieldset>
         <h3><label for="userrecipes">Submit your own recipe below!</label></h3>
         <textarea name="userrecipes" id="userrecipes" cols ="60" rows="30"></textarea>
-      </fieldset>
+        </fieldset>
         <input type="submit" value="Here's my survey response!">
       </form>
-   	</main>
-      </body>
+  </main>
+  </body>
 </html>
