@@ -29,6 +29,8 @@
 		<section>
 			<h2>Mug Cupcake</h2>
 
+			<fiure><img src = images/mugcake.jpg alt='Mug Cupcake'></fiure>
+
 			<h3>Ingredients</h3>
 			<ul>
 				<li>1/4 cup all-purpose flour</li>
@@ -52,6 +54,8 @@
 
 		<section>
 			<h2>Butterfly Cake</h2>
+
+			<figure><img src = images/butterfly.jpeg></figure>
 
 			<h3>Ingredients</h3>
 			<ul>
@@ -78,6 +82,8 @@
 
 		<section>
 			<h2>Cappuccino Gourmet Cupcake</h2>
+
+			<figure><img src = images/capcake.jpg></figure>
 
 			<h3>Ingredients</h3>
 			<ul>
