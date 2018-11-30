@@ -33,7 +33,7 @@
         <input type="text" name="cupcake" id="cupcake">
         <label class="fixed" for="frosting">Favorite frosting: </label>
         <input type="text" name="frosting" id="frosting">
-        <label class="fixed" for="sprinkles">Do you sprinkles? </label>
+        <label class="fixed" for="sprinkles">Do you like sprinkles? </label>
         <input type="radio" name="sprinkles" value="yes">Yes
         <input type="radio" name="sprinkles" value="no">No
         <input type="radio" name="sprinkles" value="sometimes">Sometimes
