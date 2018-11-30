@@ -25,7 +25,7 @@
     </section>
   </header>
   <main>
-    <h2>Do you have a recipe that you'd like to submit?</h2>
+    <h2>The Important cupcake survey!</h2>
       <form method="post" action="survey-thanks.php">
         <label class="fixed" for="username">Your Name: </label>
         <input type="text" name="username" id="username">
@@ -40,7 +40,7 @@
 
 
         <fieldset>
-        <h3><label for="userrecipes">Submit your own recipe below!</label></h3>
+        <h3><label for="userrecipes">Submit your own cupcake recipe below!</label></h3>
         <textarea name="userrecipes" id="userrecipes" cols ="60" rows="30"></textarea>
         </fieldset>
         <input type="submit" value="Here's my survey response!">
