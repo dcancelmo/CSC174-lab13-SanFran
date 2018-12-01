@@ -26,10 +26,11 @@
 	<main>
 		<h1>About Cupcakes</h1>
 
-		<figure><img src = images/history.jpg></figure>
-
 		<section>
 			<h2>Cupcake History</h2>
+
+			<figure><img src = images/history.jpg></figure>
+
 			<p>The earliest extant description of what is now often called a cupcake was in 1796, when a recipe for "a light cake to bake in small cups" was written in American Cookery by Amelia Simmons. The earliest extant documentation of the term cupcake itself was in "Seventy-five Receipts for Pastry, Cakes, and Sweetmeats" in 1828 in Eliza Leslie's Receipts cookbook.</p>
 			<p>In the early 19th century, there were two different uses for the term cup cake or cupcake. In previous centuries, before muffin tins were widely available, the cakes were often baked in individual pottery cups, ramekins, or molds and took their name from the cups they were baked in. This is the use of the name that has remained, and the name of "cupcake" is now given to any small, round cake that is about the size of a teacup. While English fairy cakes vary in size more than American cupcake, they are traditionally smaller and are rarely topped with elaborate icing.</p>
 		</section>
