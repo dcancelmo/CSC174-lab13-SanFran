@@ -1,3 +1,7 @@
+<!-- 
+	Tutorial used: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
+	It is the same one that was given for lab11
+ -->
 <?php
 require_once('connect-db.php');
 
@@ -67,7 +71,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 			
 			// Attempt to execute the prepared statement
 			if(mysqli_stmt_execute($stmt)){
-				header("location: login.php");
+				header("location: login-files/login.php");
 			} else{
 				echo "Something went wrong. Please try again later.";
 			}
@@ -109,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 			<div>
 				<input type="submit" value="Submit">
 			</div>
-			<p>Already have an account? <a href="login.php">Login here</a>.</p>
+			<p>Already have an account? <a href="login-files/login.php">Login here</a>.</p>
 		</form>
 	</div>    
 </body>
