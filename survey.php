@@ -18,8 +18,8 @@
 				<input type="text" name="cupcake" id="cupcake" maxlength="25" required>
 				<label class="fixed" for="frosting">Favorite frosting: </label>
 				<input type="text" name="frosting" id="frosting" maxlength="25">
-				<label class="fixed" for="sprinkles">Do you like sprinkles? </label>
-				<input type="radio" name="sprinkles" value="yes">Yes
+				<label class="fixed" for="sprinkles">* Do you like sprinkles? </label>
+				<input type="radio" name="sprinkles" value="yes" required>Yes
 				<input type="radio" name="sprinkles" value="no">No
 				<input type="radio" name="sprinkles" value="sometimes">Sometimes
 
