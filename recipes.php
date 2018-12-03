@@ -6,7 +6,7 @@
 	</head>
 
 	<body>
-	<?php include 'inc/header.php' ?>
+	<?php include 'inc/header.php'; ?>
 	<main>
 		<h1>Cupcake Recipes</h1>
 
