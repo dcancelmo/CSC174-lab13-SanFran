@@ -18,6 +18,7 @@
 
 		<section>
 			<h1><a href = "../index.php">Back to Website Home page</a></h1>
+			<a href="logout.php">Logout</a>
 		</section>
 	</header>
 
