@@ -23,8 +23,14 @@
 			<h1>Cupcakes</h1>
 		</section>
 
+	</header>
+	
+	<main>
+		<h2>View Records</h2>
+
 		<?php
-		include('connect-db.php');
+		// connect to the database
+		include('../connect-db.php');
 
 		// get results from database
 		$result = mysqli_query($connection, "SELECT * FROM survey");
@@ -65,20 +71,17 @@ while($row = mysqli_fetch_array( $result )) {
 	<a href="new.php">Add a new record</a>
 </div>
 
-		<section>
-			<h1><a href = "../index.php">Back to Website Home page</a></h1>
-			<a href="logout.php">Logout</a>
-		</section>
+		
 	</header>
-
-	<main>
-		<h1>View Records</h1>
 
 		
 	</main>
 
 	<footer>
-		
+		<section>
+			<h1><a href = "../index.php">Back to Website Home page</a></h1>
+			<a href="logout.php">Logout</a>
+		</section>
 	</footer>
 	</body>
 </html>

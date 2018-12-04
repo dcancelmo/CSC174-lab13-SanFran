@@ -2,35 +2,43 @@
 include('renderform.php');
 
 // connect to the database
-include('connect-db.php');
+include('../connect-db.php');
 
 // check if the form has been submitted. If it has, start to process the form and save it to the database
 if (isset($_POST['submit'])) {
 	// get form data, making sure it is valid
-	$firstname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['firstname']));
-	$lastname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['lastname']));
-	$phone = mysqli_real_escape_string($connection, htmlspecialchars($_POST['phone']));
-	$email = mysqli_real_escape_string($connection, htmlspecialchars($_POST['email']));
+
+		$name = mysqli_real_escape_string($connection, htmlspecialchars($_POST['username']));
+		$cupcake = mysqli_real_escape_string($connection, htmlspecialchars($_POST['cupcake']));
+		$frosting = mysqli_real_escape_string($connection, htmlspecialchars($_POST['frosting']));
+		$sprinkles = $_POST["sprinkles"];
+		if ($sprinkles == "yes") {
+			$sprinkles = 1;
+		} else if ($sprinkles == "no") {
+			$sprinkles = -1;
+		} else {
+			$sprinkles = 0;
+		}
+		$user_recipe = mysqli_real_escape_string($connection, htmlspecialchars($_POST['userrecipe']));
 
 
 
-	// check to make sure both fields are entered
-	if ($firstname == '' || $lastname == '' || $phone == '' || $email == '') {
-		// generate error message
-		$error = 'ERROR: Please fill in all required fields!';
+	if ($name == '' || $cupcake == '' || $sprinkles == '') {
+			// generate error message
+			$error = 'ERROR: Please fill in all mandatory required fields!';
 
-		// if either field is blank, display the form again
-		renderForm($id, $firstname, $lastname, $phone, $email, $error);
+			//error, display form
+			renderForm($id, $name, $cupcake, $frosting, $sprinkles, $user_recipe, $error);
 
-	} else {
+		} else {
 		// save the data to the database
-		$result = mysqli_query($connection, "INSERT INTO london_table (firstname, lastname, phone, email) VALUES ('$firstname', '$lastname', '$phone', '$email')");
+		$result = mysqli_query($connection, "INSERT INTO survey (name, cupcake, frosting, sprinkles, recipe) VALUES ('$name', '$cupcake', '$frosting', '$sprinkles', '$user_recipe')");
 
 		// once saved, redirect back to the view page
-		header("Location: index.php");
+		header("Location: survey-results.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form
-	renderForm('','','','','','');
+	renderForm('','','','','','','');
 }
 ?>

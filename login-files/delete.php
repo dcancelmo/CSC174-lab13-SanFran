@@ -1,6 +1,6 @@
 <?php
 // connect to the database
-include('connect-db.php');
+include('../connect-db.php');
 
 // check if the 'id' variable is set in URL, and check that it is valid
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {

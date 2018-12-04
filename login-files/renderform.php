@@ -6,9 +6,12 @@ function renderForm($id, $name, $cupcake, $frosting, $sprinkles, $user_recipe, $
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Edit Record</title>
+	<title>Edit/ New Record</title>
 </head>
 <body>
+<header>
+	<h1>Edit/ New Record</h1>
+</header>
 <?php
 // if there are any errors, display them
 if ($error != '') {
@@ -18,18 +21,21 @@ if ($error != '') {
 <form action="" method="post">
 	<input type="hidden" name="id" value="<?php echo $id; ?>">
 	<strong>ID:</strong> <?php echo $id; ?><br>
-	<strong>Name: *</strong> <input type="text" name="username" value="<?php echo $username; ?>"/><br>
-	<input type="text" name="username" id="username" maxlength="30" required>
-	<strong>Last Name: *</strong> <input type="text" name="lastname" value="<?php echo $lastname; ?>"/><br>
-	<strong>Phone: *</strong> <input type="text" name="phone" value="<?php echo $phone; ?>"/><br>
-	<strong>Email: *</strong> <input type="text" name="email" value="<?php echo $email; ?>"/><br>
+	<strong>Name: *</strong> <input type="text" name="username" value="<?php echo $name; ?>"/><br>
+	<strong>Favorite Cupcake: *</strong> <input type="text" name="cupcake" value="<?php echo $cupcake; ?>"/><br>
+	<strong>Favorite Frosting: </strong> <input type="text" name="frosting" value="<?php echo $frosting; ?>"/><br>
+	<strong>Sprinkles: *</strong>
+	<input type="radio" name="sprinkles" value="yes">Yes
+	<input type="radio" name="sprinkles" value="no">No
+	<input type="radio" name="sprinkles" value="sometimes">Sometimes<br>
+	<strong>User's Recipe: </strong> <input type="userrecipe" name="userrecipe" value="<?php echo $user_recipe; ?>"/><br>
 	<div>* required</div>
 	<input type="submit" name="submit" value="Submit">
 </form>
 
 <div>
 	<br>
-	<a href=".">Cancel</a>
+	<a href="survey-results.php">Cancel</a>
 </div>
 
 </body>
