@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
 		$result = mysqli_query($connection, "INSERT INTO survey (name, cupcake, frosting, sprinkles, recipe) VALUES ('$name', '$cupcake', '$frosting', '$sprinkles', '$user_recipe')");
 
 		// once saved, redirect back to the view page
-		header("Location: survey-results.php");
+		header("Location: index.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form
