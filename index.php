@@ -18,6 +18,9 @@
 				<p>A cupcake  is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with 
 				larger cakes, icing and other cake decorations such as fruit and candy may be applied. Come <a href =about.php>learn all about cupcakes</a>, <a href=recipes.php>read some amazing cupcake recipes</a>, and fill out our <strong><a href = survey.php>CUPCAKE SURVEY!</a></strong></p>
 		</section>
+		<section>
+			<a href = login-files/login.php>Admin Login</a>
+		</section>
 
 		<section>
 			<h2><a href=survey.php>Click here to fill out our CUPCAKE SURVEY!</a></h2>		

@@ -99,9 +99,6 @@
 
 	<footer>
 		<section>
-			<a href = login-files/login.php>Admin Login</a>
-		</section>
-		<section>
 			<h2><a href=survey.php>Click here to fill out our CUPCAKE SURVEY!</a></h2>		
 		</section>
 	</footer>
