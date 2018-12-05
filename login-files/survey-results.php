@@ -56,7 +56,7 @@ while($row = mysqli_fetch_array( $result )) {
     <td><?php echo $row['cupcake']; ?></td>
     <td><?php echo $row['frosting']; ?></td>
     <td><?php echo $row['sprinkles']; ?></td>
-    <td><?php echo $row['user_recipe']; ?></td>
+    <td><?php echo $row['recipe']; ?></td>
     <td><a href="edit.php?id=<?php echo $row['id']; ?>">Edit</a></td>
     <td><a onclick="return confirm('Are you sure you want to delete ID: <?php echo $row["id"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a></td>
   </tr>
