@@ -36,8 +36,8 @@
 	<body>
 	<?php include 'inc/header.php'; ?>
 	<main>
-		<h3>Thank you for your contribution, <?php echo $name; ?>! Cupcake lovers like you increase the range of people we can reach and serve.</h3>
-		<p><a href="survey.php">Back to survey page</a></p>
+		<h2>Thank you for your contribution, <?php echo $name; ?>!</h2>
+		<p>Cupcake lovers like you increase the range of people we can reach and serve. Check in next month to see your recipe featured on the website! <a href="survey.php">Back to survey page</a></p>
 	</main>
 
 	<footer>

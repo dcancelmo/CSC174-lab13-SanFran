@@ -25,7 +25,7 @@
 
 
 				<fieldset>
-				<h3><label for="userrecipe">Submit your own cupcake recipe below!</label></h3>
+				<h3><label for="userrecipe">Submit your own cupcake recipe to be featured on the site!</label></h3>
 				<textarea name="userrecipe" id="userrecipe" cols ="60" rows="30" maxlength="65535"></textarea>
 				</fieldset>
 				<div>* = required field</div>

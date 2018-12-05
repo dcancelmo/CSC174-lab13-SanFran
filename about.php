@@ -42,7 +42,7 @@
 
 	<footer>
 		<section>
-			<h2><a href=survey.php>Click here to fill out our CUPCAKE SURVEY!</a></h2>		
+			<h2><a href=survey.php>Fill out our CUPCAKE SURVEY and have your cupcake recipe featured!</a></h2>		
 		</section>
 	</footer>
 	</body>
