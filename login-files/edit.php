@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 			$result = mysqli_query($connection, "UPDATE survey SET name='$name', cupcake='$cupcake', frosting='$frosting', sprinkles='$sprinkles', recipe='$user_recipe' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
-			header("Location: survey-results.php");
+			header("Location: index.php");
 		}
 	} else {
 		// if the 'id' isn't valid, display an error
