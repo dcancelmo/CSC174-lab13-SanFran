@@ -20,7 +20,7 @@
 	<body>
 	<header>
 		<section>
-			<h1>Cupcakes</h1>
+			<h1>Cupcakes Survey Results</h1>
 		</section>
 
 	</header>
@@ -70,11 +70,6 @@ while($row = mysqli_fetch_array( $result )) {
   <br>
 	<a href="new.php">Add a new record</a>
 </div>
-
-		
-	</header>
-
-		
 	</main>
 
 	<footer>
