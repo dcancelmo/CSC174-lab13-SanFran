@@ -35,7 +35,7 @@ if ($error != '') {
 
 <div>
 	<br>
-	<a href="survey-results.php">Cancel</a>
+	<a href="index.php">Cancel</a>
 </div>
 
 </body>
