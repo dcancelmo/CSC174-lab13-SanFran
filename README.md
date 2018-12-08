@@ -2,17 +2,32 @@
 Jayda as IA, Famous as Designer and Daniel as coder.
 (websits link here)
 (Repo link here)
-## Ontology
-Admin has access to the database
 
-##Taxonomy 
-Cupcakes have an about page, recipes, and a survey
-About has the history, then how they're typically made, to different kinds of cupcakes
-Recipes have titles, unordered lists of ingredients, and paragraphs for how to create.
-Survey takes....
-The scope of the site are cupcakes. Cupcakes have an about page, recipes page, and a survey page. Under the about 
-cupcakes title(h1), is "Cupcake History"(h2), "Making Cupcakes"(h2) and "Cupcake variants"(h2). Recipes 
-has three recipes that were refrenced under "cupcake variants", "Mug Cupcakes"(h2), "Butterfly Cake"(h2), and "Cappuccino Gourmet Cupcake"(h2). Each recipe has an unordered list of "Ingredients"(h3) and an ordered list of "Directions"(h3). We use sections to hold each title tag and its related content. 
+## Ontology
+
+### Admins
+-Admins have accounts they register for
+-Admins have access to the database/ survey results 
+
+### Cupcakes
+-Cupcakes have an about page, recipes, and a survey
+-About cupcakes has history
+-About cupcakes has basics for making cupcakes
+-About cupcakes has cupcake variants
+-Recipes have feautured cupcakes (the cupcake variants); Mug Cupcake, Butterfly Cake, Cappuccino Gourmet Cupcake
+-Survey has users name, favorite cupcake, favorite frosting, sprinkle preference
+-Survey has user's cupcake recipe to be featured on Recipes
+-Survey pushes results to database
+-Survey has a thank you message for users
+
+
+##Taxonomy
+-h1 tags: Page Titles
+-h2 tags: Titles of sections of the page ("Cupcake History", "Making Cupcakes", "Cupcake Variants", etc)
+-h3 tags: Specific parts of sections (For Recipes, "Ingredients", "Directions")
+-Ingredients are unordered lists, directions are ordered lists of paragraphs
+-Section tags: Divide each page into parts, holds each title tag and related content
+-Figure tags: Hold photos in their sections
 
 ##Choreography
 The home page has the website topic in the top left, a nav that can take you to the history of cupcakes, 
