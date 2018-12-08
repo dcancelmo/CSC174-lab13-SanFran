@@ -22,19 +22,19 @@ Jayda as IA, Famous as Designer and Daniel as coder.
 
 
 ##Taxonomy
+-Header holds website topic and nav
 -h1 tags: Page Titles
 -h2 tags: Titles of sections of the page ("Cupcake History", "Making Cupcakes", "Cupcake Variants", etc)
 -h3 tags: Specific parts of sections (For Recipes, "Ingredients", "Directions")
 -Ingredients are unordered lists, directions are ordered lists of paragraphs
+-Main tags hold all of the content unique to the page
 -Section tags: Divide each page into parts, holds each title tag and related content
 -Figure tags: Hold photos in their sections
+-Footers hold terminal action (The survey link)
+-Survey has form tags for smaller information and fieldset tags for recipes
 
 ##Choreography
-The home page has the website topic in the top left, a nav that can take you to the history of cupcakes, 
-recipes, and the survey in the top right, a short description about why cupcakes in the bottom left, 
-and in the bottom right, terminal area, is a link to the survey, the purpose of the site.
-All pages have the same header. 
-All pages have the link to the survey in the bottom right. 
-The link to login is on the bottom left of the recipes page
-The survey has 3 text boxes, a slider, and a fieldset for a larger textbox. 
-The submit pushes information to the database and takes user to a thank you page. 
+
+### Non-Admin user
+
+### Admin users

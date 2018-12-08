@@ -10,6 +10,7 @@
 	<body>
 	<?php include 'inc/header.php'; ?>
 	<main>
+		<section>
 		<h2>The Important cupcake survey!</h2>
 			<form method="post" action="survey-thanks.php">
 				<label class="fixed" for="username">* Your Name: </label>
@@ -31,6 +32,7 @@
 				<div>* = required field</div>
 				<input type="submit" value="Here's my survey response!">
 			</form>
+		</section>
 	</main>
 	</body>
 </html>

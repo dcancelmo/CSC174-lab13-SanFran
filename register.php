@@ -91,9 +91,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 	<title>Register-Admin</title>
 </head>
 <body>
-	<div>
-		<h2>Sign Up</h2>
-		<p>Please fill this form to create an account.</p>
+	<header>
+		<h1>Register</h1>
+	</header>
+	<section>
+		<h2>Fill out to create account</h2>
 		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
 			<div>
 				<label>Username</label>
@@ -115,6 +117,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 			</div>
 			<p>Already have an account? <a href="login-files/login.php">Login here</a>.</p>
 		</form>
-	</div>    
+	</section>    
 </body>
 </html>

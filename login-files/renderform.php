@@ -12,6 +12,7 @@ function renderForm($id, $name, $cupcake, $frosting, $sprinkles, $user_recipe, $
 <header>
 	<h1>Edit/ New Record</h1>
 </header>
+<main>
 <?php
 // if there are any errors, display them
 if ($error != '') {
@@ -37,7 +38,7 @@ if ($error != '') {
 	<br>
 	<a href="index.php">Cancel</a>
 </div>
-
+</main>
 </body>
 </html>
 <?php

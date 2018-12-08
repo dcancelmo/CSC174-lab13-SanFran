@@ -36,12 +36,10 @@
 	<body>
 	<?php include 'inc/header.php'; ?>
 	<main>
-		<h2>Thank you for your contribution, <?php echo $name; ?>!</h2>
-		<p>Cupcake lovers like you increase the range of people we can reach and serve. Check in next month to see your recipe featured on the website! <a href="survey.php">Back to survey page</a></p>
+		<section>
+			<h2>Thank you for your contribution, <?php echo $name; ?>!</h2>
+			<p>Cupcake lovers like you increase the range of people we can reach and serve. Check in next month to see your recipe featured on the website! <a href="survey.php">Back to survey page</a></p>
+		</section>
 	</main>
-
-	<footer>
-		
-	</footer>
 	</body>
 </html>

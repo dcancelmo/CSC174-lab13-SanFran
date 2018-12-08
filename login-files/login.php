@@ -85,12 +85,12 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 	<title>Admin Login</title>
 </head>
 <body>
-	<div>
 		<header>
 			<section>
 				<h1>Cupcakes</h1>
 			</section>
 		</header>
+		<main>
 		<h2>Login</h2>
 		<div>Please fill in your credentials to login.</div>
 		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
@@ -109,6 +109,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 			</div>
 			<div>Don't have an account? <a href="../register.php">Register here</a>.</div>
 		</form>
-	</div>    
+		</main>   
 </body>
 </html>
