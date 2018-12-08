@@ -1,7 +1,7 @@
 # CSC174-lab13-SanFran
 Jayda as IA, Famous as Designer and Daniel as coder.
 (websits link here)
-(Repo link here)
+https://github.com/dcancelmo/CSC174-lab13-SanFran
 
 ## Ontology
 
