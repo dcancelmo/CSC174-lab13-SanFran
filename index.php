@@ -10,6 +10,7 @@
 
 	<main>
 		<h2>All about cupcakes and how you can make your own!</h2>
+		<fiure><img src = images/hero2.jpg alt='Line of cupcakes'></fiure>
 	</main>
 
 	<footer>
