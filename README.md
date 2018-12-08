@@ -20,7 +20,6 @@ Jayda as IA, Famous as Designer and Daniel as coder.
 -Survey pushes results to database
 -Survey has a thank you message for users
 
-
 ##Taxonomy
 -Header holds website topic and nav
 -h1 tags: Page Titles
@@ -36,5 +35,52 @@ Jayda as IA, Famous as Designer and Daniel as coder.
 ##Choreography
 
 ### Non-Admin user
+In the order of the path users should take
+
+#### Index
+In a Z pattern, listed from left ro right,
+- Users first see the topic of the website, then the Nav in the strong follow (these two are the same for all pages)
+- Hero image is some cupcakes
+- Then, bottom left, weak follow is general definition of cupcakes, and the admin login under
+- Terminal area is the link to survey since thats the main purpose (same for all pages except survey page)
+
+#### About
+In an F pattern
+- The left side F points are the titles
+- Right side F points are pictres relating to topics of the section
+- Cupcake variants are listed in order of easiest to hardest to make 
+
+#### Recipes
+In an F pattern
+- Left side F points are the titles of the recipes
+- Right side F points are pictures of what the recipes make
+- The recipes are in the same order as the cupcake variants, how easy to hard are they to make
+
+#### Survey 
+- Mandatory fields are starred
+- Submitting of recipe, relating to the last page, is largest field
+- Page ends with submitting the recipe on the bottom right, terminal area
 
 ### Admin users
+In the order of the path admins should take
+
+#### Index
+-Log-in is on the index, but in a weak follow area as to be in a non-conspicuous
+
+#### Log-in
+IF YOU'RE ALREADY LOGGED IN
+-Takes you straight to survey-results
+If you're not logged in
+-Information to login is displayed first
+-Register button is below it
+
+#### Register
+- Lets you register then takes you back to log-in
+
+#### Survey Results
+- Displays main purpose, the table of results
+- On the table rows, can edit and delete
+- Asks if you're sure before you delete 
+- Allows to make new records
+- Link back to the website
+- Logout, which takes you back to login
