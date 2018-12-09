@@ -26,7 +26,7 @@ if ($error != '') {
 	<strong>Favorite Cupcake: *</strong> <input type="text" name="cupcake" value="<?php echo $cupcake; ?>"/><br>
 	<strong>Favorite Frosting: </strong> <input type="text" name="frosting" value="<?php echo $frosting; ?>"/><br>
 	<strong>Sprinkles: *</strong>
-	<input type="radio" name="sprinkles" value="yes">Yes
+	<input type="radio" name="sprinkles" value="yes" required>Yes
 	<input type="radio" name="sprinkles" value="no">No
 	<input type="radio" name="sprinkles" value="sometimes">Sometimes<br>
 	<strong>User's Recipe: </strong> <input type="userrecipe" name="userrecipe" value="<?php echo $user_recipe; ?>"/><br>

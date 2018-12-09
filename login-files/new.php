@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
 
 
 
-	if ($name == '' || $cupcake == '' || $sprinkles == '') {
+	if ($name == '' || $cupcake == '') {
 			// generate error message
 			$error = 'ERROR: Please fill in all mandatory required fields!';
 

@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 		$user_recipe = mysqli_real_escape_string($connection, htmlspecialchars($_POST['userrecipe']));
 
 		// check that firstname/lastname fields are both filled in
-		if ($name == '' || $cupcake == '' || $sprinkles == '') {
+		if ($name == '' || $cupcake == '') {
 			// generate error message
 			$error = 'ERROR: Please fill in all mandatory required fields!';
 
