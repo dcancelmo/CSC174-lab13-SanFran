@@ -48,28 +48,6 @@
 
 		</div>
 
-		<!--
-		<h2>About Cupcakes</h2>
-		<div class="divider"></div>
-		<section>
-			<h2>Cupcake History</h2>
-			<div class="row">
-		    <div class="col s12 m6">
-					<div class="card">
-						<figure class="card-image">
-							<img src = images/history.jpg>
-						</figure>
-						<div class="card-content">
-			        Cupcake recipe!
-			      </div>
-					</div>
-				</div>
-			</div>
-			<p>The earliest extant description of what is now often called a cupcake was in 1796, when a recipe for "a light cake to bake in small cups" was written in American Cookery by Amelia Simmons. The earliest extant documentation of the term cupcake itself was in "Seventy-five Receipts for Pastry, Cakes, and Sweetmeats" in 1828 in Eliza Leslie's Receipts cookbook.</p>
-			<p>In the early 19th century, there were two different uses for the term cup cake or cupcake. In previous centuries, before muffin tins were widely available, the cakes were often baked in individual pottery cups, ramekins, or molds and took their name from the cups they were baked in. This is the use of the name that has remained, and the name of "cupcake" is now given to any small, round cake that is about the size of a teacup. While English fairy cakes vary in size more than American cupcake, they are traditionally smaller and are rarely topped with elaborate icing.</p>
-		</section>
-		-->
-
 		<section>
 
 			<div class="row">
@@ -132,36 +110,6 @@
 		</section>
 	</main>
 
-	<footer class='page-footer' >
-		<div class="row">
-			<div class="col s12 m6">
-				<section class='container'>
-					<h3>Cupcakes? What are those?</h3>
-					<div class="divider"></div>
-					<p>A cupcake is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, icing and other cake decorations such as fruit and candy may be applied. Come <a href=about.php>learn all about cupcakes</a>, <a href=recipes.php>read some amazing cupcake recipes</a>, and fill out our
-					<strong>
-						<a href=survey.php>CUPCAKE
-							SURVEY!
-						</a>
-					</strong>
-				</p>
-				</section>
-			</div>
-
-			<div class="col s12 m6">
-				<section class='container'>
-					<h3>Admin?</h3>
-					<div class="divider"></div>
-					<a href=login-files/login.php>Admin Login</a>
-				</section>
-
-				<section class='container'>
-					<h3>Take a survery</h3>
-					<div class="divider"></div>
-					<a href=survey.php>Fill out our CUPCAKE SURVEY and have your cupcake recipe featured!</a>
-				</section>
-			</div>
-		</div>
-	</footer>
+	<?php include('./inc/footer.php'); ?>
 	</body>
 </html>
