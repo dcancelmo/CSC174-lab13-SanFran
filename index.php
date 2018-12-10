@@ -17,7 +17,7 @@
 <body>
 	<?php include 'inc/header.php'; ?>
 	<main class="container">
-		<h1>Cupcakes</h1>
+		<h2>Cupcakes</h2>
 		<div class="divider"></div>
 		<div class="row">
 	    <div class="col s12 m12">
