@@ -18,9 +18,11 @@
       <section class='container'>
         <h3>Take a survery</h3>
         <div class="divider"></div>
+        <strong>
         <a href=survey.php>Fill out our CUPCAKE SURVEY and have your cupcake recipe featured!</a>
+      </strong>
       </section>
-      
+
       <section class='container'>
         <h3>Admin?</h3>
         <div class="divider"></div>
