@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli('66.147.242.186', 'urcscon3_SanFran', 'coffee1N/!', 'urcscon3_SanFrancisco');
+$mysqli = new mysqli('localhost', 'urcscon3_SanFran', 'coffee1N/!', 'urcscon3_SanFrancisco');
 
 if ($mysqli->connect_error) {
     die('Connect Error (' . $mysqli->connect_errno . ') '

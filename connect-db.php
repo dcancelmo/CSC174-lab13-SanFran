@@ -1,5 +1,5 @@
 <?php
-$server = '66.147.242.186';
+$server = 'localhost';
 $user = 'urcscon3_SanFran';
 $pass = 'coffee1N/!';
 $db = 'urcscon3_SanFrancisco';
