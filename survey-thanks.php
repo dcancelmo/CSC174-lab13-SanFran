@@ -1,4 +1,4 @@
-<?php 
+<?php
 	require_once('connect-db.php');
 
 	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -31,11 +31,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Thank You</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+		</script>
 	</head>
 
 	<body>
 	<?php include 'inc/header.php'; ?>
-	<main>
+	<main class="container">
 		<section>
 			<h2>Thank you for your contribution, <?php echo $name; ?>!</h2>
 			<p>Cupcake lovers like you increase the range of people we can reach and serve. Check in next month to see your recipe featured on the website! <a href="survey.php">Back to survey page</a></p>

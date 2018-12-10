@@ -3,17 +3,38 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Cupcake Recipes</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<link rel="stylesheet" href="./css/override.css">
+    <!-- Compiled and minified JavaScript -->
+    <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+		</script>
 	</head>
 
 	<body>
 	<?php include 'inc/header.php'; ?>
-	<main>
-		<h1>Cupcake Recipes</h1>
+	<main class="container">
+		<h2>Cupcake Recipes</h2>
+		<div class="divider"></div>
 
 		<section>
-			<h2>Mug Cupcake</h2>
 
-			<fiure><img src = images/mugcake.jpg alt='Mug Cupcake'></fiure>
+			<h2>Mug Cupcake</h2>
+			<div class="row">
+		    <div class="col s12 m6">
+					<div class="card">
+						<figure class="card-image">
+							<img src = images/mugcake.jpg alt='Mug Cupcake'>
+						</figure>
+						<div class="card-content">
+			        Pose for your mug shot!
+			      </div>
+					</div>
+				</div>
+			</div>
 
 			<h3>Ingredients</h3>
 			<ul>
@@ -38,8 +59,19 @@
 
 		<section>
 			<h2>Butterfly Cake</h2>
-
-			<figure><img src = images/butterfly.jpeg></figure>
+			<div class="row">
+		    <div class="col s12 m6">
+					<div class="card">
+						<figure
+							class="card-image">
+							<img src = images/butterfly.jpeg>
+						</figure>
+						<div class="card-content">
+			        Exxxtraaa butter
+			      </div>
+					</div>
+				</div>
+			</div>
 
 			<h3>Ingredients</h3>
 			<ul>
@@ -66,8 +98,19 @@
 
 		<section>
 			<h2>Cappuccino Gourmet Cupcake</h2>
+			<div class="row">
+		    <div class="col s12 m6">
+					<div class="card">
+						<figure class="card-image">
+							<img src = images/capcake.jpg>
+						</figure>
+						<div class="card-content">
+			        Now thats a good ass coffe cake
+			      </div>
+					</div>
+				</div>
+			</div>
 
-			<figure><img src = images/capcake.jpg></figure>
 
 			<h3>Ingredients</h3>
 			<ul>
@@ -97,9 +140,17 @@
 		</section>
 	</main>
 
-	<footer>
-		<section>
-			<h2><a href=survey.php>Fill out our CUPCAKE SURVEY and have your cupcake recipe featured!</a></h2>		
+	<footer class="page-footer">
+		<section class='container'>
+			<h3>Cupcakes? What are those?</h3>
+			<div class="divider"></div>
+			<p>A cupcake is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, icing and other cake decorations such as fruit and candy may be applied. Come <a href=about.php>learn all about cupcakes</a>, <a href=recipes.php>read some amazing cupcake recipes</a>, and fill out our
+			<strong>
+				<a href=survey.php>CUPCAKE
+					SURVEY!</a>
+				</strong>
+			</p>
+			<a href=survey.php>Fill out our CUPCAKE SURVEY and have your cupcake recipe featured!</a>
 		</section>
 	</footer>
 	</body>

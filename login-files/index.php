@@ -15,17 +15,29 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Survey Results</title>
+
+		<link
+	    rel="stylesheet"
+	    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	  <link rel="stylesheet" href="./css/override.css">
+	  <!-- Compiled and minified JavaScript -->
+	  <script
+	    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+	  </script>
+
 	</head>
 
 	<body>
-	<header>
+
+	<header class="container">
 		<section>
 			<h1>Cupcakes Survey Results</h1>
 		</section>
 
 	</header>
-	
-	<main>
+
+	<main class="container">
 		<h2>View Records</h2>
 
 		<?php
