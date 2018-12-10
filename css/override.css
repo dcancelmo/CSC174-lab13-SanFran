@@ -2,6 +2,10 @@ h3{
   font-size: 2.1rem;
 }
 
+footer{
+  padding-bottom: .1rem;
+}
+
 .card-image{
   margin: -.1rem;
 }
