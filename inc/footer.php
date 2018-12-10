@@ -16,15 +16,15 @@
 
     <div class="col s12 m6">
       <section class='container'>
-        <h3>Admin?</h3>
-        <div class="divider"></div>
-        <a href=login-files/login.php>Admin Login</a>
-      </section>
-
-      <section class='container'>
         <h3>Take a survery</h3>
         <div class="divider"></div>
         <a href=survey.php>Fill out our CUPCAKE SURVEY and have your cupcake recipe featured!</a>
+      </section>
+      
+      <section class='container'>
+        <h3>Admin?</h3>
+        <div class="divider"></div>
+        <a href=login-files/login.php>Admin Login</a>
       </section>
     </div>
   </div>
